@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react'
 //Cors
 import './App.css'
 import { Newserver } from './New'
+import { Listing } from './Listing'
 /*interface User {
   id: number
   uername: string
@@ -42,10 +43,13 @@ function App() {
           ))}
         </ul>
       </div>
+      <Listing />
       
       
     </>
   )
 }
+
+  
 
 export default App
